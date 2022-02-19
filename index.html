@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title>Welcome to my World . . .</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <a href="#" class="logo">Borbyi<span>.</span></a>
+            <ul class="navigation">
+                <li ><a href="#banner">Home</a></li>
+                <li><a href="#about">About me</a></li>
+                <li><a href="#skill">Skill</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </header>
+        <section class="banner" id="banner">
+            <div class="content">
+                <h2>Welcome to my World</h2>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting 
+                    industry. Lorem Ipsum has been the industry's standard dummy 
+                    text ever since the 1500s, when an unknown printer took a galley
+                     of type and scrambled it to make a type specimen book. It has 
+                     survived not only five centuries, but also the leap into electronic 
+                     typesetting, remaining essentially unchanged</p>
+                     <a href="#" class="btn">Let's see</a>
+            </div>
+        </section>
+        <section id="about">
+            <div class="row">
+                <div class="col50">
+                    <h2 class="titleText"><span>A</span>bout me</h2>
+                    <p><br>Lorem Ipsum is simply dummy text of the printing and typesetting 
+                        industry. Lorem Ipsum has been the industry's standard dummy 
+                        text ever since the 1500s, when an unknown printer took a galley
+                        of type and scrambled it to make a type specimen book. It has 
+                        survived not only five centuries, but also the leap into electronic 
+                        typesetting, remaining essentially unchanged<br><br>Lorem Ipsum is simply 
+                        dummy text of the printing and typesetting industry. Lorem Ipsum has been 
+                        the industry's standard dummy text ever since the 1500s, when an unknown 
+                        printer took a galley of type and scrambled it to make a type specimen book.
+                        It has survived not only five centuries, but also the leap into electronic 
+                        ypesetting, remaining essentially unchanged</p>
+                          </div>
+                          <div class="col50">
+                              <div class="imgBx"></div>
+                                <img src="/assets/somjew.jpeg">
+                              </div>
+                            </div>
+                        </div>
+        </section>
+        <section class="skill" id="skill">   
+                <h2 class="skill-header"><span  style="color: red;">S</span>kills</h2>
+                <div class="container">
+                    <div class="cards">
+                        <h3>HTML/CSS</h3>
+                        <p>It is a long established fact that a reader will be distracted by
+                            the readable content of a page when looking at its layout. 
+                            The point of using Lorem Ipsum is that it has a more-or-less normal 
+                            distribution of letters</p> 
+                        <p style="font-size: 32px;">🔥</p>
+                    </div>
+                    <div class="cards">
+                        <h3>JavaScript</h3>
+                        <p>Contrary to popular belief, Lorem Ipsum is not simply random text.
+                            It has roots in a piece of classical Latin literature from 45 BC,
+                            making it over 2000 years old.</p> 
+                        <p style="font-size: 32px;">❤️</p>
+                    </div>
+                    <div class="cards">
+                        <h3>Python</h3>
+                        <p>opposed to using 'Content here, content here', making it look 
+                            like readable English. Many desktop publishing packages and web 
+                            page editors</p> 
+                        <p style="font-size: 32px;">✨</p>
+                    </div>
+                    
+                    <div class="cards">
+                        <h3>Java</h3>
+                        <p>Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia,
+                            looked up one of the more obscure Latin words, consectetur,from a Lorem Ipsum passage,
+                            and going through</p> 
+                        <p style="font-size: 32px;">👓</p>
+                    </div>
+                </div>
+        </section>
+        <section class="contact" id="contact">
+            <h2 class="contact-header"><span style="color: #FFABAB;">C</span>ontact</h2>
+            <div class="contact-box">
+                <div><h4> 📞 +66 123-4567-8910</h4></div>
+                <div><h4><a href="https://github.com/borboom33508" target="_blank">🛠️Github</a></h4></div>
+                <div><h4> ✉️ dummy.gg@hotmail.com</h4></div>
+            </div>
+        </section>
+        <footer>
+            Hello world from me.
+        </footer>
+        <script type="text/javascript">window.addEventListener('scroll',function(){
+            const header = document.querySelector('header');
+            header.classList.toggle("sticky",window.scrollY > 0);
+        });</script>
+    </body>
+</html>
