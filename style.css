@@ -13,6 +13,10 @@ p {
     color: #111;
 }
 
+.logo:hover{
+    color: white;
+}
+
 body{
     height: 100vh;
 }
@@ -57,6 +61,7 @@ body{
 }
 .btn:hover{
     letter-spacing: 3px;
+    color: black;
 }
 
 header.sticky{
